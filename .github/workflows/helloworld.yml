@@ -11,5 +11,5 @@ jobs:
     runs_on: ubuntu_latest
     steps:
       -name: "print hello world"
-       run: echo "my name is abhishek"
+      -run : echo "myname is abhishek"
 
