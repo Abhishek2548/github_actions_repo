@@ -8,8 +8,7 @@ on:
 
 jobs:
   hello_world:
-    runs_on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
-      -name: "print hello world"
-      -run : echo "myname is abhishek"
-
+      - name: "print hello world"
+        run: echo "my name is abhishek"
