@@ -1,14 +1,14 @@
-name: "multi event pipeline/ workflow"
+name: "multi event pipeline/workflow"
 
 on:
-    push:
-        branches:
-            -master
-            -main
+  push:
+    branches:
+      - master
+      - main
 
 jobs:
-    on-push:
-        runs-on: ubuntu-latest
-        steps:
-            -name: "running on master push"
-              run: echo "my name is abhishek"
+  on-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Running on push to master or main"
+        run: echo "My name is Abhishek"
